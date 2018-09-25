@@ -1,7 +1,5 @@
 package problem21;
 
-import java.util.Scanner;
-
 public class SolutionTest {
     public static void main(String[] args) {
         int []a = {1,2,3};
@@ -24,7 +22,7 @@ public class SolutionTest {
             q = q.next;
         }
 
-        Solution solution = new Solution();
+        Solution2 solution = new Solution2();
         ListNode newList = solution.mergeTwoLists(l1,l2);
 
         while (newList != null){
