@@ -25,8 +25,6 @@ class Solution {
             ceil = ceil.next;
         }
 
-
-
         if(l1 == null){
             ceil.next = l2;
         }else {
